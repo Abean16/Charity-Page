@@ -86,6 +86,7 @@ box-sizing: border-box;
 .table{
     width: 100%;
 }
+
 .td{
     width: 33%;
 }
@@ -285,6 +286,9 @@ box-sizing: border-box;
     .banner-strip {
         width: 100%;
     }
+    .head-font {
+        font-size: 20px;
+    }
     
     .banner-heading, .banner-pg-placement {
         width: 100%;
@@ -293,12 +297,48 @@ box-sizing: border-box;
     }
     
     .img, .img2 {
-        width: 100%;
         height: auto;
+        margin: 0 auto;
     }
     
     .head-spacing1, .head-spacing2, .rd-spacing, .where, .a-spacing {
         margin-left: 0;
         margin-right: 0;
     }
+
+    .horizontal-hr {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .horizontal-hr{
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        border: none;
+        margin-bottom: 20px;
+    }
+    .table{
+        width: 100%;
+    }
+
+    .h1{
+        margin: 0 auto;
+    }
+    .sub-bttn{
+        width: 80%;
+        padding: 1.5%;
+        height: 30px;
+        border: 1#060606;
+        border-radius: 15px;
+        margin-left: 10%;
+        text-align: center;
+    }
+    .txtbox, .label, .label2, .spacing {
+        width: 80%;
+        padding: 1.5%;
+        height: 30px;
+        border: 1#060606;
+        border-radius: 15px;
+        margin-left: 10%;
+        text-align: center; }
 }
