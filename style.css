@@ -1,3 +1,8 @@
+* {
+margin: 0;
+box-sizing: border-box;
+}
+
 .background{
     background-color: rgba(255, 255, 0, 0.363);
 }
@@ -48,6 +53,7 @@
     background-color: black; 
     border: none; 
     margin: 200px auto; 
+    margin-left: 2%;
 }
 
 .hr {
@@ -63,6 +69,7 @@
 .font{
     text-align: center;
     font-size: 50px;
+    margin-bottom: 5%;
 }
 
 .img{
@@ -95,14 +102,14 @@
     height: 60px;
     top: 500%;
     margin: -400px;
-    margin-right: -600px;
+    margin-right: -550px;
 }
 
 .head-spacing2{
     height: 60px;
     top: 500%;
     margin: -400px;
-    margin-left: -600px;
+    margin-left: -500px;
 }
 
 .rd-spacing{
@@ -132,7 +139,7 @@
 .a-spacing{
     height: 60px;
     top: 500%;
-    margin: -100px;
+    margin: -200px;
     margin-left: -300px;
     padding-top: 10%;
     margin-top: -50%;
@@ -144,9 +151,9 @@
 
 
 .txtbox{
-    width: 40%;
+    width: 60%;
     padding: 1.5%;
-    height: 15px;
+    height: 30px;
     border: 1#060606;
     border-radius: 15px;
     margin-left:-10px;
@@ -164,7 +171,7 @@
 
 .label2{
     width: 40%;
-    padding: 4%;
+    padding: 4.5%;
     height: 15px;
     border: 1#060606;
     border-radius: 15px;
@@ -173,9 +180,9 @@
 
 
 .spacing{
-    width: 40%;
+    width: 60%;
     padding: 1.5%;
-    height: 15px;
+    height: 30px;
     border: 1#060606;
     border-radius: 15px;
     margin-left:-10px;
@@ -183,7 +190,7 @@
 }
 
 .sub-bttn{
-    width: 20%;
+    width: 30%;
     padding: 1.5%;
     height: 30px;
     border: 1#060606;
@@ -199,9 +206,9 @@
 }
 
 .img3{
-    height: 30%;
-    margin-left: 40%;
-    margin-bottom: -100%;
+    height: 15%;
+    margin-left: 50%;
+    margin-bottom: -130%;
     border:1px;
     border-style: groove;
 }
@@ -211,12 +218,11 @@
     width: 10%;
     border-style: groove;
     margin-left: 40%;
-    margin-top: 120%;
     width: 80%;
     height: 120px;
     border-collapse: collapse;
     border: 2px solid black;
-    margin-top: 140%;
+    margin-top: 160%;
 }
 
 .bor{
@@ -225,15 +231,17 @@
 }
 
 .b-spacing{
-    margin-right: -200px;
+    margin-right: -150px;
+    padding-top: 10%;
+    margin-top: -50%;
 }
 
 
 .pg-style{
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     margin-right: -150px;
-    padding: 5%;
+    padding: 10%;
 }
 
 .ban{
