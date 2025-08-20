@@ -260,3 +260,11 @@ box-sizing: border-box;
     border: 2px solid black;
     width: 200%;
 }
+
+.horizontal-hr{
+    width: 450px; 
+    height: 2px; 
+    background-color: black; 
+    border: none; 
+    margin-bottom: 49.5%;
+}
