@@ -313,13 +313,13 @@ box-sizing: border-box;
     }
 
     .horizontal-hr {
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
     .horizontal-hr{
         height: 2px;
         background-color: black;
         border: none;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
     .table{
         width: 100%;
