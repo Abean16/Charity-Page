@@ -289,6 +289,10 @@ box-sizing: border-box;
     .head-font {
         font-size: 20px;
     }
+
+    .background{
+        margin: 0%;
+    }
     
     .banner-heading, .banner-pg-placement {
         width: 100%;
@@ -297,10 +301,10 @@ box-sizing: border-box;
     }
     
     .img2 {
-        height: 40%;
+        height: 30%;
     }
     .img{
-        height: 50px;
+        height: 60px;
     }
     
     .head-spacing1, .head-spacing2, .rd-spacing, .where, .a-spacing {
