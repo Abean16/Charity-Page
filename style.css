@@ -268,3 +268,12 @@ box-sizing: border-box;
     border: none; 
     margin-bottom: 49.5%;
 }
+
+.head-font{
+    font-size: 30px;
+    margin: 10%;
+}
+
+.img,.img2{
+    margin: 5%;
+}
