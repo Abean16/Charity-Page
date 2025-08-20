@@ -313,14 +313,14 @@ box-sizing: border-box;
 
     .horizontal-hr {
         margin-bottom: 5px;
-        width: 5%;
+        width: 5px;
     }
     .horizontal-hr{
         height: 2px;
         background-color: black;
         border: none;
-        margin-bottom: 5px;
-        width: 5%;
+        margin-bottom: 1px;
+        width: 5px;
     }
     .table{
         width: 100%;
