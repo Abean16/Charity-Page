@@ -297,8 +297,7 @@ box-sizing: border-box;
     }
     
     .img, .img2 {
-        height: auto;
-        margin: 0 auto;
+        height: 20%;
     }
     
     .head-spacing1, .head-spacing2, .rd-spacing, .where, .a-spacing {
