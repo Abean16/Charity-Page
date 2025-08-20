@@ -277,3 +277,25 @@ box-sizing: border-box;
 .img,.img2{
     margin: 5%;
 }
+
+@media screen and (max-width: 600px) {
+    .banner-strip {
+        width: 100%;
+    }
+    
+    .banner-heading, .banner-pg-placement {
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+    
+    .img, .img2 {
+        width: 100%;
+        height: auto;
+    }
+    
+    .head-spacing1, .head-spacing2, .rd-spacing, .where, .a-spacing {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
