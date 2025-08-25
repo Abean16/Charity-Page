@@ -1,356 +1,194 @@
-* {
-margin: 0;
-box-sizing: border-box;
-}
-
 .background{
-    background-color: rgba(255, 255, 0, 0.363);
+    background-color: rgb(253, 253, 200);
 }
 
-
-.spacing{
-    text-align:center;
-    position: relative;
-    line-height: 150px;
-}
-
-
-.banner-strip {
-    background-color: #f0f0f0; 
-    /* padding: 400px 20px; */
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-}
-
-.banner-heading{
-    position: absolute;
-    text-align: center;
-    top: 20px; 
-    left: 20px;
-    width: 250px;
-    padding: 10px; 
-}
-
-.banner-pg-placement{
-    position: absolute;
-    text-align: center;
-    top: 80px; 
-    left: 20px;
-    width: 250px;
-    word-wrap: break-word;
-    overflow: hidden;
-    padding: 10px; 
-}
-
-
-.vertical-hr {
-    transform: rotate(90deg);
-    width: 450px; 
-    height: 2px; 
-    background-color: black; 
-    border: none; 
-    margin: 200px auto; 
-    margin-left: 2%;
-}
-
-.hr {
-    width: 800px; 
-    height: 2px; 
-    background-color: black; 
-    border: none; 
-    margin: -430px auto; 
-}
-
-
-
-.font{
-    text-align: center;
-    font-size: 50px;
-    margin-bottom: 5%;
-}
-
-.img{
-    height: 20%;
-    margin-left: 20%;
-    border:1px;
-}
-
-.h1{
-    text-align:center;
-    margin-left: auto;
-    margin-right: auto;
-}
-.table{
-    width: 100%;
-}
-
-.td{
-    width: 33%;
-}
-
-.img2{
-    height: 60%;
-    margin-left: 25%;
+.box1{
+    width: 600px;                
+    height: 300px;               
+    background-image: url("images/duck-on-water.png"); 
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-style:groove;
     border-radius: 10%;
-    
-}
-
-
-.head-spacing1{
-    height: 60px;
-    top: 500%;
-    margin: -400px;
-    margin-right: -550px;
-}
-
-.head-spacing2{
-    height: 60px;
-    top: 500%;
-    margin: -400px;
-    margin-left: -500px;
-}
-
-.rd-spacing{
-    height: 60px;
-    top: 500%;
-    margin: -300px;
-    margin-left: -100px;
-}
-
-.size{
-    font-size: 20px;
-}
-
-.where{
-    height: 60px;
-    top: 500%;
-    margin: -200px;
-    margin-left: -100px;
-}
-
-.board{
-    border: #060606;
-    border-radius: 1px;
-    border-style: dashed;
-}
-
-.a-spacing{
-    height: 60px;
-    top: 500%;
-    margin: -200px;
-    margin-left: -300px;
-    padding-top: 10%;
-    margin-top: -50%;
-}
-
-.form{
-    margin-top: -60%;
-}
-
-
-.txtbox{
-    width: 60%;
-    padding: 1.5%;
-    height: 30px;
-    border: 1#060606;
-    border-radius: 15px;
-    margin-left:-10px;
+    border-color: black;
     text-align: center;
+    font-family:monospace;
+}    
+
+.body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0%;
 }
 
-.label{
-    width: 40%;
-    padding: 2.5%;
-    height: 15px;
-    border: 1#060606;
-    border-radius: 15px;
-    margin-left:-40px;
+.submit{
+    border-style:groove;
+    border-radius: 15%;
+    background-color: yellow;
+    width: 100px;
+    height: 40px;
+    font-family:monospace;
+    font-weight: 800;
 }
 
-.label2{
-    width: 40%;
-    padding: 4.5%;
-    height: 15px;
-    border: 1#060606;
-    border-radius: 15px;
-    margin-left:-40px;
+.button-body{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+.heading{
+    text-align: center;
+    font-family: monospace;
+}
+
+.box2{
+    width: 250px;                
+    height: 200px;               
+    background-image: url("images/stream.png");  
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-style:groove;
+    border-radius: 10%;
+    border-color: black;
+    text-align: center;
+    font-family: monospace;
+}
+
+
+.box3{
+    width: 250px;                
+    height: 200px;               
+    background-image: url("images/duck-rehab.png");
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-style:groove;
+    border-radius: 10%;
+    border-color: black;
+    text-align: center;
+    font-family: monospace;
 }
 
 
 .spacing{
-    width: 60%;
-    padding: 1.5%;
-    height: 30px;
-    border: 1#060606;
-    border-radius: 15px;
-    margin-left:-10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.box-text{
+    margin-left:2%;
+    margin-right: 2%;
     text-align: center;
+    margin-top: 5%;
 }
 
-.sub-bttn{
-    width: 30%;
-    padding: 1.5%;
-    height: 30px;
-    border: 1#060606;
-    border-radius: 15px;
-    margin-left:40px;
+
+
+.banner{
+    background-color:aliceblue;
+    width: 200px;                
+    height: 180px;
+    opacity: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 8%;
+    border-radius: 5%;
+}
+
+
+.box4{
+    width: 600px;                
+    height: 300px;               
+    background-image: url("images/water.png"); 
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-style:groove;
+    border-radius: 10%;
+    border-color: black;
     text-align: center;
+    font-family: monospace;
 }
 
-
-.tbl-spc{
-    padding: 2%;
-    font-size: 50px;
+.body2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0%;
+    margin-top: 2%;
 }
-
-.img3{
-    height: 15%;
-    margin-left: 50%;
-    margin-bottom: -130%;
-    border:1px;
-    border-style: groove;
-}
-
-
-.leader-table{
-    width: 10%;
-    border-style: groove;
-    margin-left: 40%;
-    width: 80%;
-    height: 120px;
-    border-collapse: collapse;
-    border: 2px solid black;
-    margin-top: 160%;
-}
-
-.bor{
-    border: 1px solid #000000;
-    text-align: center;
-}
-
-.b-spacing{
-    margin-right: -150px;
-    padding-top: 10%;
-    margin-top: -50%;
-}
-
-
-.pg-style{
-    font-size: 18px;
-    text-align: center;
-    margin-right: -150px;
-    padding: 10%;
-}
-
-.ban{
-    padding-bottom: 50%;
-}
-
-.font-type{
-    font-family: 'Courier New';
-}
-
-
-.ad-bor{
-    border: 1px solid#000000;
-    border-style: dashed;
-    border-collapse: collapse;
-    border: 2px solid black;
-    width: 200%;
-}
-
-.horizontal-hr{
-    width: 450px; 
-    height: 2px; 
-    background-color: black; 
-    border: none; 
-    margin-bottom: 49.5%;
-}
-
-.head-font{
-    font-size: 30px;
-    margin: 10%;
-}
-
-.img,.img2{
-    margin: 5%;
-}
-
-@media only screen 
-    and (max-width: 430px) 
-    and (max-height: 932px) 
-    {
-    .banner-strip {
-        width: 100%;
-    }
-    .head-font {
-        font-size: 20px;
-    }
-
-    .background{
-        margin: 0%;
-    }
     
-    .banner-heading, .banner-pg-placement {
-        width: 100%;
-        top: 0;
+.heading2{
+    text-align: center;
+    font-family: monospace;
+    margin-top: 4%;
+}
+
+.banner2{
+    background-color:aliceblue;
+    width: 500px;                
+    height: 250px;
+    opacity: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 8%;
+    border-radius: 5%;
+    margin-top:4%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.space{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.head-size{
+    font-size: 16px;
+}
+
+.head-size2{
+    font-size: 24px;
+}
+
+.p{
+    font-size: 15px;
+}
+
+.space2{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 6%;
+}
+@media screen and (max-width: 700px) {
+    .spacing{
+        flex-direction: column;
+        align-items: center;
     }
-    
-    .img2 {
-        height: 30%;
+    .box2, .box3{
+        margin-bottom: 20px;
     }
-    .img{
-        height: 80px;
+    .banner2{
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        margin-bottom: 5%;
     }
-    
-    .head-spacing1, .head-spacing2, .rd-spacing, .where, .a-spacing {
-        margin-left: 0;
-        margin-right: 0;
+    .box4{
+        height: auto;
     }
 
-    .horizontal-hr {
-        margin-bottom: 5px;
-        width: 10px;
+    .body2{
+        flex-direction: column;
+        align-items: center;
     }
-    .horizontal-hr{
-        height: 2px;
-        background-color: black;
-        border: none;
-        margin-bottom: 1px;
-        width: 2px;
-    }
-    .table{
-        width: 100%;
-    }
-
-    .h1{
-        margin: 0 auto;
-    }
-    .sub-bttn{
-        width: 80%;
-        padding: 1.5%;
-        height: 30px;
-        border: 1#060606;
-        border-radius: 15px;
-        margin-left: 10%;
-        text-align: center;
-    }
-    .txtbox, .label, .label2, .spacing {
-        width: 80%;
-        padding: 1.5%;
-        height: 30px;
-        border: 1#060606;
-        border-radius: 15px;
-        margin-left: 10%;
-        text-align: center; }
-
-        .vertical-hr {
-        height: 2px;
-        margin: 0 auto;
-        margin-left: 0;
-        margin-right: 0;
-        }
 }
